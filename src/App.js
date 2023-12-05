@@ -4,7 +4,7 @@ import { default as Tasks } from './components/Tasks'
 const App = () => {
   return (
     <div className='container'>
-        <Header title={1}/>
+        <Header />
         <Tasks />
     </div>
   )
